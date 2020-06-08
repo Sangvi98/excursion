@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="resources\style.css" type="text/css" rel="stylesheet">
+    <link href="resources\style.css" rel="stylesheet" type="text/css">
     <title>excursion</title>
+    <script>
+        document.getElementById('vid').play();
+    </script>
 </head>
 <body>
     <h1 class="page-title">Discover hidden places in the world around you</h1>
     <h5><a>Download Excursion (Coming Soon!)</a></h5> 
-    <div class="phone-screen"></div>
-    <h1>Your personal travel guide</h1>
+    <div class="phone-screen">
+        <video autoplay muted>
+            <source src="resources\excursion.mp4" type="video/mp4">
+        </video>
+    </div>
+    <h1 class="subheading">Your personal travel guide</h1>
     <h3>Excursion remembers places you like, and recommends new points of interest around you.</h3>
-    <img alt="tent under sky">
-    <img alt="phone icon">
-    <h1>Coming soon for iPhone and Android</h1>
+    <img alt="tent under sky" src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/camp.jpg">
+    <img class="icon" alt="phone icon" src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/phone.png">
+    <h1 class="subheading">Coming soon for iPhone and Android</h1>
     <h5><a>Download Excursion (Coming Soon!)</a></h5> 
 </body>
 </html>
